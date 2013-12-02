@@ -1,0 +1,22 @@
+{
+  "name": "nix-java",
+  "version": "0.1.5",
+  "summary": "Install Oracle Java",
+  "author": "Kobrin Artem",
+  "description": "Install Oracle Java",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "\u003e\u003d1.4.0"
+    }
+  ],
+  "types": [],
+  "checksums": {
+    "Modulefile": "4e77bbb7da09e51445492a8bf5382d72",
+    "manifests/init.pp": "01e34b9a4d484958b47db102a1b11924",
+    "manifests/install.pp": "846ade6b46f0eb89799b3c23ff0b7beb",
+    "manifests/params.pp": "2981dd32054c795481eafd2c7f9d7d06"
+  },
+  "source": "https://github.com/puppetnix/java",
+  "license": "Apache License, Version 2.0"
+}
