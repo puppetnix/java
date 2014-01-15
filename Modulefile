@@ -1,9 +1,8 @@
 name 'nix-java'
-version '0.1.5'
+version '0.1.6'
 
 author 'Kobrin Artem'
-license 'Apache License, Version 2.0'
+license 'GNU Library Public License, Version 2.1'
 source 'https://github.com/puppetnix/java'
 summary 'Install Oracle Java'
 description 'Install Oracle Java'
-dependency 'puppetlabs-apt', '>=1.4.0'
