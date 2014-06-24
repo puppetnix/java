@@ -12,6 +12,10 @@ class java::params{
         $java_pkg=['oracle-java7-installer']
         $java_dst='/usr/lib/jvm/java-7-oracle/jre'
       }
+      if $java::version == 'java8'{
+        $java_pkg=['oracle-java8-installer']
+        $java_dst='/usr/lib/jvm/java-8-oracle/jre'
+      }
     }
 
     default: {
